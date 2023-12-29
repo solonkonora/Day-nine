@@ -42,3 +42,16 @@ body {
   left: 0;
   position: absolute;
 }
+
+.btn:focus,
+.input:focus {
+  outline: 0;
+}
+
+.search.active .input {
+  width: 200px;
+}
+
+.search.active .btn{
+  transform: translateX(198px);
+}
